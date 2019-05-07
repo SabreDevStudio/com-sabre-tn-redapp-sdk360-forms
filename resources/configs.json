@@ -1,0 +1,7 @@
+{
+    "env-running":"test",
+    "nudge-recomendations":[{"dest-iata":"","recommended-airline":""}],
+    "nudge-conf-las":{"icon":"INFO","msg":"Las Vegas deserve a flight with AA","actionId":"","actionLabel":""},
+    "nudge-conf-nyc":{"icon":"INFO","msg":"Delta has very good promo for New York flights","actionId":"","actionLabel":""}
+    
+}

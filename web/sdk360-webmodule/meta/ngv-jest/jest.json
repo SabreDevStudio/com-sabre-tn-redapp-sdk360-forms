@@ -1,0 +1,17 @@
+{
+  "moduleNameMapper": {
+    "^(sdk360-webmodule/Context)$": "meta\\ngv-jest\\1\\Context.js",
+    "^(sdk360-webmodule)$": "meta\\ngv-jest\\2\\index.js",
+    "^(sdk360-webmodule/customForm/CmdHelperButton)$": "meta\\ngv-jest\\2\\CmdHelperButton.js",
+    "^(sdk360-webmodule/customForm/EventsType)$": "meta\\ngv-jest\\2\\EventsType.js",
+    "^(sdk360-webmodule/customForm/EventType)$": "meta\\ngv-jest\\2\\EventType.js",
+    "^(sdk360-webmodule/customForm/RequestType)$": "meta\\ngv-jest\\2\\RequestType.js",
+    "^(sdk360-webmodule/customForm/RequestTypeAsRequestData)$": "meta\\ngv-jest\\2\\RequestTypeAsRequestData.js",
+    "^(sdk360-webmodule/customForm/SearchResultsDrawer)$": "meta\\ngv-jest\\2\\SearchResultsDrawer.js",
+    "^(sdk360-webmodule/customForm/SearchResultsRow)$": "meta\\ngv-jest\\2\\SearchResultsRow.js",
+    "^(sdk360-webmodule/customForm/SearchResultsView)$": "meta\\ngv-jest\\2\\SearchResultsView.js",
+    "^(sdk360-webmodule/index)$": "meta\\ngv-jest\\1\\index.js",
+    "^(sdk360-webmodule/Main)$": "meta\\ngv-jest\\1\\Main.js",
+    "^(sdk360-webmodule/customForm/CmdHelperForm)$": "meta\\ngv-jest\\2\\CmdHelperForm.js"
+  }
+}

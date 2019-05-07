@@ -1,0 +1,30 @@
+{
+  "name": "sdk360-webmodule",
+  "version": "1.0.0",
+  "description": "NGV module",
+  "author": {
+    "name": "Alex Mene",
+    "email": "",
+    "url": ""
+  },
+  "contributors": [],
+  "private": false,
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "ngv": {
+    "buildDependencies": {
+      "sabre-ngv-app": "*",
+      "sabre-ngv-core": "*",
+      "sabre-ngv-xp": "*"
+    },
+    "concierge_version_min": "4.8.6",
+    "buildInfo": {
+      "concierge_version": "4.8.6",
+      "date": "2019-05-07T14:34:59.620Z",
+      "ts": 1557239699620,
+      "rebuildHash": "48fc3a224e90e9a37891c757868261ea"
+    }
+  }
+}

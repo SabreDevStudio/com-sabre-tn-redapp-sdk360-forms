@@ -1,0 +1,26 @@
+{
+  "name": "sdk360-webmodule",
+  "version": "4.8.6",
+  "meta": {},
+  "dependencies": [
+    "sabre-ngv-app",
+    "sabre-ngv-core",
+    "sabre-ngv-xp"
+  ],
+  "submodules": [
+    "sdk360-webmodule/Context",
+    "sdk360-webmodule/customForm/CmdHelperButton",
+    "sdk360-webmodule/customForm/EventsType",
+    "sdk360-webmodule/customForm/EventType",
+    "sdk360-webmodule/customForm/RequestType",
+    "sdk360-webmodule/customForm/RequestTypeAsRequestData",
+    "sdk360-webmodule/customForm/SearchResultsDrawer",
+    "sdk360-webmodule/customForm/SearchResultsRow",
+    "sdk360-webmodule/customForm/SearchResultsView",
+    "sdk360-webmodule/index",
+    "sdk360-webmodule/Main",
+    "sdk360-webmodule/customForm/CmdHelperForm"
+  ],
+  "hasTemplates": true,
+  "hasStyles": true
+}

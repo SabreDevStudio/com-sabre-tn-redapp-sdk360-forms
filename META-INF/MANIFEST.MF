@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Sdk360
+Bundle-SymbolicName: com.sabre.tn.redapp.sdk360;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.sabre.tn.redapp.sdk360.Activator
+Bundle-Vendor: SABRE
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.sabre.edge.platform.core.common,
+ com.sabre.edge.platform.optional.webkit,
+ com.sabre.edge.redapp.contactdetails,
+ com.sabre.edge.dynamo.ext.cdm,
+ com.sabre.edge.dynamo.redapp.cdm,
+ com.sabre.edge.redapp.pluginresources;bundle-version="1.0.2",
+ com.sabre.edge.dynamo.transformer;bundle-version="3.4.51"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/json-simple-1.1.jar,
+ .
+Service-Component: OSGI-INF/NudgeInit.xml, OSGI-INF/NudgeAction.xml, OSGI-INF/TicketMasterService.xml
+Eclipse-RegisterBuddy: com.sabre.edge.dynamo.transformer
